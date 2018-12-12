@@ -1,0 +1,43 @@
+.footer {
+    display: block;
+    text-align: center;
+    padding: 3rem 0;
+    background: #D9E0DD;
+}
+
+.footer p {
+    margin-bottom: 2rem;
+}
+
+.social-media-icons {
+    margin-bottom: 3rem;
+}
+
+.social-media-icons a {
+    padding: 0.2rem;
+    display: inline-block;
+    margin: 0 0.8rem;
+}
+
+.contact-us-button {
+    color: white;
+    padding: 0.5rem 2rem;
+    background-color: #AB3258;
+    border-radius: 8px;
+}
+
+.contact-us-button:hover {
+    color: #AB3258;
+    background-color: white;
+    border: 1px solid #AB3258;
+}
+
+.labello-logo-footer-link {
+    display: block;
+    padding: 0.5rem;
+}
+
+.labello-logo-footer {
+    height: 3rem;
+    width: auto;
+}

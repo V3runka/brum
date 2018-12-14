@@ -13,19 +13,130 @@
     <link href="css/navbar.css" rel="stylesheet">
     <link href="css/products.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
-        <nav class="navbar">
+    <div class="navbar-mobile-wrapper">
+        <nav class="navbar-mobile">
+            <a href="index.html"><img class="labello-logo-navbar" src="images/labello.svg" alt="Labello logo"></a>
+            <div id="menu-buttom" class="burger-menu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ol id="navbar-list" class="navbar-list">
+
+                <li>
+                    <a href="products.html">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="index.html#how-to-care">HOW TO CARE</a>
+                </li>
+                <li>
+                    <a href="careforthemoment.html">#CAREFORTHEMOMENT</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT US</a>
+                </li>
+            </ol>
         </nav>
+    </div>
+    <header class="header">
+        <nav class="navbar-desktop">
+            <a href="index.html"><img class="labello-logo-navbar" src="images/labello.svg" alt="Labello logo"></a>
+            <ol class="navbar-list-desktop">
+                <li>
+                    <a href="products.html">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="index.html#how-to-care">HOW TO CARE</a>
+                </li>
+                <li>
+                    <a href="careforthemoment.html">#CAREFORTHEMOMENT</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT US</a>
+                </li>
+            </ol>
+        </nav>
+        <div class="banner-container">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="images/img1-1024.jpg" type="image/jpeg">
+                <img class="banner" src="images/img1.jpg" alt="">
+            </picture>
+            <h1 class="welcoming-text-products">Lip balms for everyone!</h1>
+        </div>
     </header>
     <div class="page-container">
-        <main>
+        <main class="main-content">
+            <section>
+                <div class="text-right text">
+                    <h2>Original</h2>
+                    <p>Nově bez minerálních olejů. Pro rty, které jsou jemné a hebké… Hýčkejte je díky pečujícímu složení s bambuckým máslem a panthenolem. Synonymum pro dokonalou péči o rty: Labello Balzám na rty Original.</p>
+                </div>
+                <picture class="img-left">
+                    <source media="(min-width: 660px)" srcset="images/img4-660.jpg" type="image/jpeg">
+                    <img src="images/img4.jpg" alt="">
+                </picture>
+            </section>
+            <section>
+                <div class="text">
+                    <h2>Sun Protect </h2>
+                    <p>Pokožka rtů je extrémně citlivá. Chraňte ji, intenzivně a zároveň jemně! Složení se včelím voskem rty hydratuje. Nejlepší volba pro vaše rty: Labello Balzám na rty Sun Protection.</p>
+                </div>
+                <picture>
+                    <source media="(min-width: 660px)" srcset="images/img4-660.jpg" type="image/jpeg">
+                    <img src="images/img4.jpg" alt="">
+                </picture>
+            </section>
+            <section>
+                <div class="text-right text">
+                    <h2>Blackberry Shine</h2>
+                    <p>Mějte rty perfektně hydratované, lesklé a sladce vonící a chutnající po ostružinách. Rtěnku klidně nechte doma, stačí, když do kabelky přibalíte: Labello Furity Shine Blackberry.</p>
+                </div>
+                <picture class="img-left">
+                    <source media="(min-width: 660px)" srcset="images/img4-660.jpg" type="image/jpeg">
+                    <img src="images/img4.jpg" alt="">
+                </picture>
+            </section>
+            <section>
+                <div class="text">
+                    <h2>Poppy Red Crayon</h2>
+                    <p>Dopřejte rtům to nejlepší z balzámu a rtěnky zároveň. Hydratuje a barví. Péče v barvě vlčího máku v praktické tužce: Labello Balzám na rty v tužce s přírodními oleji Poppy Red.</p>
+                </div>
+                <picture>
+                    <source media="(min-width: 660px)" srcset="images/img4-660.jpg" type="image/jpeg">
+                    <img src="images/img4.jpg" alt="">
+                </picture>
+            </section>
         </main>
         <footer class="footer">
+            <p>Stay connected and follow our social media channels!</p>
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com/labelloglobal"><img src="images/icons/icons8-facebook.svg" alt="Facebook icon"></a>
+                <a href="https://www.instagram.com/labello/"><img src="images/icons/icons8-instagram.svg" alt="Instagram icon"></a>
+                <a href="https://www.youtube.com/channel/UCCCdyST64BONN9PVV_1eqpA/feed"><img src="images/icons/icons8-youtube-play-button.svg" alt="YouTube icon"></a>
+            </div>
+            <p>Do you have any questions? Write to us!</p>
+            <a href="contact.html" class="contact-us-button">Contact us</a>
+            <a href="index.html" class="labello-logo-footer-link"><img class="labello-logo-footer" src="images/labello.svg" alt="Labello logo"></a>
         </footer>
     </div>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+
+
+        var menuButton = document.getElementById('menu-button');
+        var navbarList = document.getElementById('navbar-list');
+
+        menuButton.addEventListener('click', function() {
+            navbarList.classList.toggle('is-open');
+        }, false);
+    </script>
 </body>
 
 </html>

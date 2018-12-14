@@ -13,6 +13,14 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    background-color: #D39628;
+}
+
+.labello-logo-navbar {
+    height: 3.2rem;
+    width: auto;
+    padding: 10px;
+    margin: 0.5rem 0 0 0.5rem;
 }
 
 .burger-menu {
@@ -30,7 +38,7 @@
 .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -79,14 +87,23 @@
     margin-top: 67px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .navbar-mobile {
         display: none;
+    }
+
+    .header {
+        margin: 0;
     }
 
     .navbar-desktop {
         display: flex;
         justify-content: space-between;
+        background-color: #D39628;
+    }
+
+    .labello-logo-navbar {
+        margin-bottom: 0.5rem;
     }
 
     .navbar-list-desktop {
@@ -94,10 +111,31 @@
         display: flex;
         flex-direction: row;
         font-size: 1rem;
-        margin: 0 40px 0 0;
+        margin: 0.7rem 0.5rem 0 0;
         list-style-type: none;
+        padding: 10px;
+        align-items: center;
     }
 
     .navbar-desktop li {
-        margin: 0 1rem
+        margin: 0 1rem;
+    }
+
+    .navbar-desktop a {
+        color: white;
+    }
+
+    @media (min-width: 1420px) {
+        .navbar-desktop li {
+            margin: 0 2rem;
+        }
+
+        .navbar-list-desktop {
+            margin-right: 2rem;
+        }
+
+        .labello-logo-navbar {
+            margin-left: 2rem;
+        }
+
     }

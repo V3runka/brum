@@ -1,12 +1,20 @@
 .footer {
     display: block;
     text-align: center;
-    padding: 3rem 0;
+    padding: 2rem 0;
     background: #D9E0DD;
 }
 
 .footer p {
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem auto;
+}
+
+.footer p:first-of-type {
+    max-width: 280px;
+}
+
+.footer p:nth-of-type(2) {
+    max-width: 280px;
 }
 
 .social-media-icons {
@@ -20,24 +28,47 @@
 }
 
 .contact-us-button {
+    display: inline-block;
     color: white;
     padding: 0.5rem 2rem;
     background-color: #AB3258;
     border-radius: 8px;
+    margin-bottom: 2rem;
 }
 
 .contact-us-button:hover {
-    color: #AB3258;
-    background-color: white;
-    border: 1px solid #AB3258;
+    background-color: #2E3852;
+    color: white;
+    text-decoration: none;
 }
 
 .labello-logo-footer-link {
     display: block;
     padding: 0.5rem;
+    max-width: 190px;
+    margin: 0 auto;
 }
 
-.labello-logo-footer {
-    height: 3rem;
-    width: auto;
+@media (min-width: 380px) {
+    .footer p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footer p:first-of-type {
+        max-width: 100%;
+    }
+
+    .footer p:nth-of-type(2) {
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .footer p:first-of-type {
+        font-size: 2rem;
+    }
+
 }

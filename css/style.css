@@ -37,10 +37,10 @@ img {
 .welcoming-text {
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
-    width: 255px;
+    font-size: 1.5rem;
+    width: 200px;
     color: #D39628;
 }
 
@@ -73,6 +73,14 @@ img {
 
 .how-to-care h2 {
     font-size: 2rem;
+}
+
+@media (min-width: 414px) {
+    .welcoming-text {
+        font-size: 2rem;
+        left: 35%;
+        width: 255px;
+    }
 }
 
 @media (min-width: 600px) {

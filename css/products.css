@@ -31,8 +31,9 @@ img {
     transform: translate(-50%, -50%);
     font-size: 2rem;
     width: 212px;
-    color: #AB3258;
+    color: white;
 }
+
 
 .page-container {
     margin-top: 3rem;
@@ -72,6 +73,7 @@ img {
 
     .welcoming-text-products {
         left: 25%;
+        color: #AB3258;
     }
 
     .main-content img {

@@ -26,6 +26,13 @@
     padding: 0.2rem;
     display: inline-block;
     margin: 0 0.8rem;
+
+}
+
+.social-media-icons img {
+    display: block;
+    width: 3rem;
+    height: auto;
 }
 
 .contact-us-button {

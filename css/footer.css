@@ -20,6 +20,9 @@
 
 .social-media-icons {
     margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-media-icons a {

@@ -21,7 +21,7 @@
     <div class="navbar-mobile-wrapper">
         <nav class="navbar-mobile">
             <a href="index.html"><img class="labello-logo-navbar" src="images/labello.svg" alt="Labello logo"></a>
-            <div id="menu-buttom" class="burger-menu" onclick="myFunction(this)">
+            <div id="menu-button" class="menu-button">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -131,19 +131,8 @@
             <a href="index.html" class="labello-logo-footer-link"><img class="labello-logo-footer" src="images/labello.svg" alt="Labello logo"></a>
         </footer>
     </div>
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-        }
 
-
-        var menuButton = document.getElementById('menu-button');
-        var navbarList = document.getElementById('navbar-list');
-
-        menuButton.addEventListener('click', function() {
-            navbarList.classList.toggle('is-open');
-        }, false);
-    </script>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>

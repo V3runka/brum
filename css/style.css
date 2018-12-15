@@ -52,7 +52,7 @@ img {
     margin-bottom: 2rem;
 }
 
-.main-content img {
+.main-content video {
     margin-bottom: 2rem;
 }
 
@@ -152,7 +152,7 @@ img {
         margin: 0;
     }
 
-    .how-to-care img {
+    .how-to-care video {
         max-width: 480px;
         margin-bottom: 0;
     }

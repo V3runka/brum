@@ -2,10 +2,11 @@
     display: block;
     text-align: center;
     padding: 2rem 0;
-    background: #D9E0DD;
+    background: #2E3852;
 }
 
 .footer p {
+    color: white;
     margin: 0 auto 2rem auto;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .contact-us-button:hover {
-    background-color: #2E3852;
+    background-color: #D39628;
     color: white;
     text-decoration: none;
 }

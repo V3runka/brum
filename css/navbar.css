@@ -59,7 +59,7 @@
     list-style: none;
     position: absolute;
     top: 100%;
-    background: white;
+    background-color: #F1F3F2;
     padding-left: 0;
     font-size: 1.2rem;
     display: none;
@@ -70,6 +70,14 @@
 
 .navbar-list.is-open {
     display: block;
+}
+
+.navbar-list li {
+    border-bottom: 1px solid black;
+}
+
+.navbar-list li:last-of-type {
+    border-bottom: none;
 }
 
 .navbar-list a {

@@ -3,7 +3,7 @@ const navbarList = document.getElementById('navbar-list');
 
 menuButton.addEventListener(
     'click',
-    function() {
+    function () {
         navbarList.classList.toggle('is-open');
         menuButton.classList.toggle('is-open');
     },

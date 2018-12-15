@@ -66,6 +66,14 @@ img {
 
 
 @media (min-width: 660px) {
+    .banner-container {
+        text-align: left;
+    }
+
+    .welcoming-text-products {
+        left: 25%;
+    }
+
     .main-content img {
         max-width: 319px;
     }
@@ -121,6 +129,7 @@ img {
     .welcoming-text-products {
         font-size: 3rem;
         width: 415px;
+        left: 30%;
     }
 
     .main-content section {

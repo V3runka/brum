@@ -24,6 +24,11 @@ img {
     height: auto;
 }
 
+#video {
+    width: 100%;
+    height: auto;
+}
+
 .banner-container {
     position: relative;
     text-align: center;
@@ -32,7 +37,7 @@ img {
 .welcoming-text {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
     width: 255px;

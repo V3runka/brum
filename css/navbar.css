@@ -130,18 +130,19 @@
     .navbar-desktop a {
         color: white;
     }
+}
 
-    @media (min-width: 1420px) {
-        .navbar-desktop li {
-            margin: 0 2rem;
-        }
-
-        .navbar-list-desktop {
-            margin-right: 2rem;
-        }
-
-        .labello-logo-navbar {
-            margin-left: 2rem;
-        }
-
+@media (min-width: 1420px) {
+    .navbar-desktop li {
+        margin: 0 2rem;
     }
+
+    .navbar-list-desktop {
+        margin-right: 2rem;
+    }
+
+    .labello-logo-navbar {
+        margin-left: 2rem;
+    }
+
+}

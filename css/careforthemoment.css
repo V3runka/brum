@@ -28,7 +28,7 @@ img {
 }
 
 .welcoming-text-careforthemoment {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .main-content {
@@ -46,6 +46,18 @@ img {
 .main-content p,
 .main-content img {
     margin-bottom: 2rem;
+}
+
+@media (min-width: 320px) {
+    .welcoming-text-careforthemoment {
+        font-size: 1.9rem;
+    }
+}
+
+@media (min-width: 400px) {
+    .welcoming-text-careforthemoment {
+        font-size: 2.4rem;
+    }
 }
 
 @media (min-width: 768px) {

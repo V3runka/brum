@@ -24,20 +24,20 @@ img {
     height: auto;
 }
 
-#video {
+.video {
     width: 100%;
     height: auto;
 }
 
 .banner-container {
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 .welcoming-text {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 42%;
     transform: translate(-50%, -50%);
     font-size: 1.5rem;
     width: 200px;
@@ -56,6 +56,28 @@ img {
     margin-bottom: 2rem;
 }
 
+.see-our-products {
+    margin: 0 1rem 5rem 1rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+.see-our-products-btn {
+    display: inline-block;
+    color: white;
+    padding: 1rem 3rem;
+    background-color: #AB3258;
+    border-radius: 8px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.see-our-products-btn:hover {
+    background-color: #D39628;
+    color: white;
+    text-decoration: none;
+}
+
 .how-to-care {
     margin: 0 1rem;
     text-align: center;
@@ -68,22 +90,45 @@ img {
 }
 
 .how-to-care h1 {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
 }
 
 .how-to-care h2 {
     font-size: 2rem;
 }
 
-@media (min-width: 414px) {
+@media (min-width: 330px) {
+    .welcoming-text {
+        left: 35%;
+    }
+}
+
+@media (min-width: 352px) {
+    .how-to-care h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 484px) {
     .welcoming-text {
         font-size: 2rem;
-        left: 35%;
+        left: 30%;
         width: 255px;
+    }
+
+    .how-to-care h1 {
+        font-size: 2.8rem;
     }
 }
 
 @media (min-width: 600px) {
+    .see-our-products {
+        margin-right: 5%;
+        margin-left: 5%;
+        max-width: 960px;
+        padding: 0 1rem;
+    }
+
     .how-to-care section {
         margin-right: auto;
         margin-left: 5%;
@@ -105,6 +150,11 @@ img {
 }
 
 @media (min-width: 820px) {
+    .see-our-products {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
     .how-to-care section {
         margin-right: auto;
         margin-left: 10%;
@@ -122,13 +172,18 @@ img {
 }
 
 @media (min-width: 1024px) {
+    .see-our-products {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .how-to-care h2 {
         margin-top: 0;
     }
 
     .welcoming-text {
         font-size: 3rem;
-        width: 415px;
+        width: 400px;
     }
 
     .how-to-care section {

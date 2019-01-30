@@ -15,6 +15,24 @@
     <link href="css/footer.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/exam-project/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/exam-project/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/exam-project/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/exam-project/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/exam-project/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/exam-project/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/exam-project/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/exam-project/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/exam-project/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/exam-project/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/exam-project/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/exam-project/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/exam-project/favicon-16x16.png">
+    <link rel="manifest" href="/exam-project/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/exam-project/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -72,6 +90,13 @@
     </header>
     <div class="page-container">
         <main class="main-content">
+            <div class="see-our-products">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/products_960-425.jpg" type="image/jpeg">
+                    <img src="images/products_600-425.jpg" alt="Photo of four lip balms on a hairy carpet.">
+                </picture>
+                <a class="see-our-products-btn" href="products.html">See our products</a>
+            </div>
             <div class="how-to-care" id="how-to-care">
                 <h1>How to take care of your lips</h1>
                 <section>
@@ -79,7 +104,7 @@
                         <h2>1. Reapply</h2>
                         <p>Apply lip balm whenever you need. Use it at least several times a day and apply a thicker layer for the night.</p>
                     </div>
-                    <video controls id="video">
+                    <video controls class="video">
                         <source src="videos/reapply.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
@@ -90,7 +115,7 @@
                         <p>Your lips need as much care as the rest of your face. Make sure to thoroughly clean any lipstick or gloss off your lips before you go to bed.
                         </p>
                     </div>
-                    <video controls id="video">
+                    <video controls class="video">
                         <source src="videos/care.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
@@ -101,7 +126,7 @@
                         <p>The skin of your lips is very sensitive. Use the Labello Sun Protection Lip Balm in snowy
                             mountains or at sunny beaches.</p>
                     </div>
-                    <video controls id="video">
+                    <video controls class="video">
                         <source src="videos/protect.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
@@ -112,7 +137,7 @@
                         <p>Lips need hydration too! And not just in the form of a moisturizing balm. Do not forget to
                             drink enough water during the day.</p>
                     </div>
-                    <video controls id="video">
+                    <video controls class="video">
                         <source src="videos/hydrate.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
